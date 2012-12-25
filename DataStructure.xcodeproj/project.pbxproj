@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC28B482168A568A00FDF7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC28B481168A568A00FDF7C4 /* Foundation.framework */; };
+		AC28B485168A568A00FDF7C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28B484168A568A00FDF7C4 /* main.m */; };
+		AC28B489168A568A00FDF7C4 /* DataStructure.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC28B488168A568A00FDF7C4 /* DataStructure.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC28B47B168A568A00FDF7C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AC28B489168A568A00FDF7C4 /* DataStructure.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC28B47D168A568A00FDF7C4 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC28B481168A568A00FDF7C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC28B484168A568A00FDF7C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC28B487168A568A00FDF7C4 /* DataStructure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructure-Prefix.pch"; sourceTree = "<group>"; };
+		AC28B488168A568A00FDF7C4 /* DataStructure.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DataStructure.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC28B47A168A568A00FDF7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC28B482168A568A00FDF7C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC28B472168A568A00FDF7C4 = {
+			isa = PBXGroup;
+			children = (
+				AC28B483168A568A00FDF7C4 /* DataStructure */,
+				AC28B480168A568A00FDF7C4 /* Frameworks */,
+				AC28B47E168A568A00FDF7C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC28B47E168A568A00FDF7C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC28B47D168A568A00FDF7C4 /* DataStructure */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC28B480168A568A00FDF7C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC28B481168A568A00FDF7C4 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC28B483168A568A00FDF7C4 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				AC28B484168A568A00FDF7C4 /* main.m */,
+				AC28B488168A568A00FDF7C4 /* DataStructure.1 */,
+				AC28B486168A568A00FDF7C4 /* Supporting Files */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		AC28B486168A568A00FDF7C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC28B487168A568A00FDF7C4 /* DataStructure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC28B47C168A568A00FDF7C4 /* DataStructure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC28B48C168A568A00FDF7C4 /* Build configuration list for PBXNativeTarget "DataStructure" */;
+			buildPhases = (
+				AC28B479168A568A00FDF7C4 /* Sources */,
+				AC28B47A168A568A00FDF7C4 /* Frameworks */,
+				AC28B47B168A568A00FDF7C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStructure;
+			productName = DataStructure;
+			productReference = AC28B47D168A568A00FDF7C4 /* DataStructure */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC28B474168A568A00FDF7C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = gxs;
+			};
+			buildConfigurationList = AC28B477168A568A00FDF7C4 /* Build configuration list for PBXProject "DataStructure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC28B472168A568A00FDF7C4;
+			productRefGroup = AC28B47E168A568A00FDF7C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC28B47C168A568A00FDF7C4 /* DataStructure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC28B479168A568A00FDF7C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC28B485168A568A00FDF7C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC28B48A168A568A00FDF7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC28B48B168A568A00FDF7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC28B48D168A568A00FDF7C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataStructure/DataStructure-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC28B48E168A568A00FDF7C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataStructure/DataStructure-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC28B477168A568A00FDF7C4 /* Build configuration list for PBXProject "DataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC28B48A168A568A00FDF7C4 /* Debug */,
+				AC28B48B168A568A00FDF7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC28B48C168A568A00FDF7C4 /* Build configuration list for PBXNativeTarget "DataStructure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC28B48D168A568A00FDF7C4 /* Debug */,
+				AC28B48E168A568A00FDF7C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC28B474168A568A00FDF7C4 /* Project object */;
+}

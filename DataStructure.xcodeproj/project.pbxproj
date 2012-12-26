@@ -10,6 +10,10 @@
 		AC28B482168A568A00FDF7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC28B481168A568A00FDF7C4 /* Foundation.framework */; };
 		AC28B485168A568A00FDF7C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28B484168A568A00FDF7C4 /* main.m */; };
 		AC28B489168A568A00FDF7C4 /* DataStructure.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC28B488168A568A00FDF7C4 /* DataStructure.1 */; };
+		AC28B497168A5BC500FDF7C4 /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28B496168A5BC500FDF7C4 /* BST.m */; };
+		AC28B49A168A5C1600FDF7C4 /* SeekTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28B499168A5C1600FDF7C4 /* SeekTreeNode.m */; };
+		AC28B4D5168A790700FDF7C4 /* AVLTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28B4D4168A790700FDF7C4 /* AVLTreeNode.m */; };
+		AC28B4D8168A7A3400FDF7C4 /* AVLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = AC28B4D7168A7A3400FDF7C4 /* AVLTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,17 @@
 		AC28B484168A568A00FDF7C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC28B487168A568A00FDF7C4 /* DataStructure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructure-Prefix.pch"; sourceTree = "<group>"; };
 		AC28B488168A568A00FDF7C4 /* DataStructure.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DataStructure.1; sourceTree = "<group>"; };
+		AC28B495168A5BC500FDF7C4 /* BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
+		AC28B496168A5BC500FDF7C4 /* BST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BST.m; sourceTree = "<group>"; };
+		AC28B498168A5C1600FDF7C4 /* SeekTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeekTreeNode.h; sourceTree = "<group>"; };
+		AC28B499168A5C1600FDF7C4 /* SeekTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeekTreeNode.m; sourceTree = "<group>"; };
+		AC28B4CD168A64AA00FDF7C4 /* TreeOperate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeOperate.h; sourceTree = "<group>"; };
+		AC28B4CE168A654100FDF7C4 /* TreeOperate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeOperate.h; sourceTree = "<group>"; };
+		AC28B4CF168A658800FDF7C4 /* DataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataType.h; sourceTree = "<group>"; };
+		AC28B4D3168A790700FDF7C4 /* AVLTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLTreeNode.h; sourceTree = "<group>"; };
+		AC28B4D4168A790700FDF7C4 /* AVLTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVLTreeNode.m; sourceTree = "<group>"; };
+		AC28B4D6168A7A3400FDF7C4 /* AVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLTree.h; sourceTree = "<group>"; };
+		AC28B4D7168A7A3400FDF7C4 /* AVLTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVLTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,7 @@
 		AC28B483168A568A00FDF7C4 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				AC28B490168A57ED00FDF7C4 /* tree */,
 				AC28B484168A568A00FDF7C4 /* main.m */,
 				AC28B488168A568A00FDF7C4 /* DataStructure.1 */,
 				AC28B486168A568A00FDF7C4 /* Supporting Files */,
@@ -86,6 +102,48 @@
 				AC28B487168A568A00FDF7C4 /* DataStructure-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC28B490168A57ED00FDF7C4 /* tree */ = {
+			isa = PBXGroup;
+			children = (
+				AC28B4CD168A64AA00FDF7C4 /* TreeOperate.h */,
+				AC28B491168A57ED00FDF7C4 /* BinaryTree */,
+			);
+			path = tree;
+			sourceTree = "<group>";
+		};
+		AC28B491168A57ED00FDF7C4 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				AC28B4D2168A78E100FDF7C4 /* AVL */,
+				AC28B4D0168A78C400FDF7C4 /* BST */,
+				AC28B4CE168A654100FDF7C4 /* TreeOperate.h */,
+				AC28B4CF168A658800FDF7C4 /* DataType.h */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		AC28B4D0168A78C400FDF7C4 /* BST */ = {
+			isa = PBXGroup;
+			children = (
+				AC28B498168A5C1600FDF7C4 /* SeekTreeNode.h */,
+				AC28B499168A5C1600FDF7C4 /* SeekTreeNode.m */,
+				AC28B495168A5BC500FDF7C4 /* BST.h */,
+				AC28B496168A5BC500FDF7C4 /* BST.m */,
+			);
+			name = BST;
+			sourceTree = "<group>";
+		};
+		AC28B4D2168A78E100FDF7C4 /* AVL */ = {
+			isa = PBXGroup;
+			children = (
+				AC28B4D3168A790700FDF7C4 /* AVLTreeNode.h */,
+				AC28B4D4168A790700FDF7C4 /* AVLTreeNode.m */,
+				AC28B4D6168A7A3400FDF7C4 /* AVLTree.h */,
+				AC28B4D7168A7A3400FDF7C4 /* AVLTree.m */,
+			);
+			name = AVL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC28B485168A568A00FDF7C4 /* main.m in Sources */,
+				AC28B497168A5BC500FDF7C4 /* BST.m in Sources */,
+				AC28B49A168A5C1600FDF7C4 /* SeekTreeNode.m in Sources */,
+				AC28B4D5168A790700FDF7C4 /* AVLTreeNode.m in Sources */,
+				AC28B4D8168A7A3400FDF7C4 /* AVLTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
